@@ -15,6 +15,7 @@ El proyecto se encuentra en la rama `main` y las implementaciones del proyecto s
 # Contenido
 - [Django Framework](#Django)
   - [Funcionalidades](#Funcionalidades)
+- [Instalación](#Instalación)
 ---
 
 ## Django
