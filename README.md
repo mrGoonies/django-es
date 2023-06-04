@@ -59,4 +59,13 @@ python3 -m venv env
 
 # Windows
 python -m venv env
+
+# Activar entorno virtual
+source env/bin/activate # Mac / linux
+
+entorno\Scripts\activate # Windows
+
+# Instalar dependencias del proyecto
+pip -r requirements.txt
+
 ```
