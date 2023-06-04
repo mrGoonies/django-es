@@ -20,9 +20,11 @@ from django.urls import path, include
 # Primer
 from primer.views import say_hello
 
+from django.views.generic.base import RedirectView
 
 
 urlpatterns = [
+    path('favicon.ico', RedirectView.as_view(url='static/favicon.ico')),
     path('admin/', admin.site.urls),
     path('say_hello', say_hello),
     path('home/', include('home.urls')),
