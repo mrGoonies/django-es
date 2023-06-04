@@ -30,3 +30,8 @@ def sample(request):
 
     return render(request, 'sample.html', dataset)
 
+def about_page(request):
+    return render(request, 'about.html')
+
+def home_page(request):
+    return render(request, 'home.html')
