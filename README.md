@@ -39,5 +39,24 @@ Django tiene sus propias características y comprenderlas nos ayudará a avanzar
 
 ---
 
+## Instalación
+Para instalar Django, debemos tener instalado Python en nuestro sistema operativo. Para verificar si tenemos instalado Python, debemos abrir una terminal y escribir el siguiente comando:
+```bash
+# Mac / Linux
+python3 --version
 
+#Windows
+python --version
+```
 
+Si no tenemos instalado Python, debemos instalarlo desde su [página oficial](https://www.python.org/downloads/).
+
+Tras instalara Python es hora de crear un entorno virtual para poder instalar las dependencias de nuestro proyecto. Para ello, debemos abrir una terminal y escribir el siguiente comando:
+
+```bash
+# Mac / Linux
+python3 -m venv env
+
+# Windows
+python -m venv env
+```
